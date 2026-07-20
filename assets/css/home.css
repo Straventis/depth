@@ -1,0 +1,39 @@
+.hero{ display:grid; grid-template-columns:1.1fr 0.9fr; gap:60px; padding:96px 64px 80px; max-width:1280px; margin:0 auto; align-items:center; }
+.hero h1{ font-size:52px; line-height:1.08; margin:18px 0 22px; }
+.hero p{ font-size:17px; color:var(--ink-muted); max-width:46ch; }
+.ctarow{ display:flex; gap:16px; margin-top:34px; }
+.btn{ font-family:'IBM Plex Mono', monospace; font-size:13px; letter-spacing:0.04em; padding:13px 22px; border-radius:2px; text-decoration:none; display:inline-block; border:none; cursor:pointer; }
+.btn-primary{ background:var(--accent); color:var(--bg0); font-weight:500; }
+.btn-ghost{ border:1px solid var(--line); color:var(--ink); background:none; }
+
+.core{ position:relative; height:420px; display:flex; flex-direction:column; }
+.core-label{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-muted); margin-bottom:10px; }
+.strata{ flex:1; border-radius:6px; overflow:hidden; border:1px solid var(--line); display:flex; flex-direction:column; }
+.band{ position:relative; flex:1; display:flex; align-items:center; padding:0 24px; border-top:1px solid var(--line); transition:flex .25s ease; text-decoration:none; }
+.band:first-child{ border-top:none; }
+.band:hover{ flex:1.5; }
+.band .tag{ font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.08em; opacity:.85; }
+.band .name{ font-family:'Zilla Slab', serif; font-size:18px; margin-top:2px; }
+.band-0{ background:var(--band1); color:var(--ink); }
+.band-1{ background:var(--band2); color:var(--ink); }
+.band-2{ background:var(--band3); color:var(--bg0); }
+.band-3{ background:var(--bg2); color:var(--ink); display:flex; justify-content:space-between; align-items:center; cursor:default; }
+.band-3 .lock{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--coral); border:1px solid var(--coral); padding:3px 8px; border-radius:2px; }
+
+.tracks{ max-width:1280px; margin:0 auto; padding:20px 64px 100px; }
+.tracks .sectionhead{ margin-bottom:36px; }
+.tracks .sectionhead h2{ font-size:28px; margin-top:8px; }
+.cardgrid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+.card{ background:var(--bg1); border:1px solid var(--line); border-radius:8px; padding:26px 22px; display:flex; flex-direction:column; gap:14px; min-height:200px; text-decoration:none; color:var(--ink); }
+.card .path{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--accent); }
+.card h3{ font-size:19px; }
+.card p{ font-size:13.5px; color:var(--ink-muted); flex:1; }
+.card .foot{ font-size:12px; color:var(--ink-muted); display:flex; justify-content:space-between; align-items:center; }
+.card.gated{ border-color:color-mix(in srgb, var(--coral) 40%, transparent); }
+.card.gated .path{ color:var(--coral); }
+
+@media (max-width:900px){
+  .hero{ grid-template-columns:1fr; padding:56px 24px; }
+  .cardgrid{ grid-template-columns:1fr 1fr; }
+  .tracks{ padding:20px 24px 60px; }
+}
