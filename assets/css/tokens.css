@@ -1,0 +1,48 @@
+/* ===================================================================
+   Depth — design tokens
+   Theme = accent hue. Mode = light/dark neutrals. These compose
+   independently so any theme works in either mode.
+   =================================================================== */
+
+/* ---- neutrals by mode ---- */
+[data-mode="dark"]{
+  --bg0:#10151A; --bg1:#1A2226; --bg2:#212B2F;
+  --ink:#ECE8DE; --ink-muted:#9CA3A0; --line:rgba(236,232,222,0.12);
+  --shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+[data-mode="light"]{
+  --bg0:#F6F3EC; --bg1:#FFFFFF; --bg2:#EFEBE1;
+  --ink:#171A16; --ink-muted:#5B5F58; --line:rgba(23,26,22,0.12);
+  --shadow: 0 8px 24px rgba(23,26,22,0.08);
+}
+
+/* ---- accent + strata bands, by theme x mode ---- */
+[data-theme="teal"][data-mode="dark"]{ --accent:#22A47E; --coral:#D9673C; --band1:#1B3C33; --band2:#1F5B49; --band3:#26805F; }
+[data-theme="teal"][data-mode="light"]{ --accent:#0F6E56; --coral:#B84E27; --band1:#DCEFE8; --band2:#BFE3D5; --band3:#9CD4BC; }
+
+[data-theme="slate"][data-mode="dark"]{ --accent:#6C9BD1; --coral:#D9673C; --band1:#1E2C3A; --band2:#26405A; --band3:#2E5A82; }
+[data-theme="slate"][data-mode="light"]{ --accent:#2F5C91; --coral:#B84E27; --band1:#DCE6F2; --band2:#C0D4EC; --band3:#9EBFE3; }
+
+[data-theme="amber"][data-mode="dark"]{ --accent:#D99A3C; --coral:#B14EDA; --band1:#3A2E1B; --band2:#5A461F; --band3:#826023; }
+[data-theme="amber"][data-mode="light"]{ --accent:#A9660F; --coral:#8E3AB8; --band1:#F2E6D2; --band2:#ECD5A6; --band3:#E3BE72; }
+
+[data-theme="forest"][data-mode="dark"]{ --accent:#5FA35A; --coral:#D9673C; --band1:#1E331B; --band2:#2C4E27; --band3:#3C6E34; }
+[data-theme="forest"][data-mode="light"]{ --accent:#2E5F2C; --coral:#B84E27; --band1:#E1EEDF; --band2:#C6E1C2; --band3:#A5D19E; }
+
+[data-theme="indigo"][data-mode="dark"]{ --accent:#8B7FD1; --coral:#D99A3C; --band1:#251E3A; --band2:#332B57; --band3:#453A7D; }
+[data-theme="indigo"][data-mode="light"]{ --accent:#5A4CA0; --coral:#A9660F; --band1:#E7E3F5; --band2:#D2C9ED; --band3:#B7A8E1; }
+
+/* ---- colorblind-safe override (fixed blue / orange, layers on top of any theme) ---- */
+[data-cb="on"][data-mode="dark"]{ --accent:#4C93FF; --coral:#F5A524; }
+[data-cb="on"][data-mode="light"]{ --accent:#1D5FD1; --coral:#B36B00; }
+
+/* ---- text size ---- */
+[data-size="sm"]{ --fs:14.5px; }
+[data-size="md"]{ --fs:16px; }
+[data-size="lg"]{ --fs:18px; }
+[data-size="xl"]{ --fs:20.5px; }
+
+/* ---- layout width ---- */
+[data-layout="narrow"]{ --cw:720px; }
+[data-layout="normal"]{ --cw:1080px; }
+[data-layout="wide"]{ --cw:1320px; }
