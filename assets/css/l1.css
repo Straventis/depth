@@ -1,15 +1,15 @@
 .l1{ padding:56px 72px; }
-.l1 .role{ color:var(--ink-muted); font-size:15px; margin-bottom:30px; }
-.l1 .summary{ font-size:15.5px; color:var(--ink-muted); max-width:70ch; margin-bottom:44px; border-left:2px solid var(--accent); padding-left:20px; }
+.l1 .role{ color:var(--ink-muted); font-size:0.9375rem; margin-bottom:30px; }
+.l1 .summary{ font-size:0.9688rem; color:var(--ink-muted); max-width:70ch; margin-bottom:44px; border-left:2px solid var(--accent); padding-left:20px; }
 .rolegroup{ margin-bottom:34px; }
-.rolegroup .rowhead{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; font-family:'Zilla Slab',serif; font-size:18px; color:var(--accent); margin-bottom:4px; }
-.rolegroup .dates{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-muted); }
-.rolegroup .title{ font-size:13px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; margin-bottom:10px; }
+.rolegroup .rowhead{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; font-family:'Zilla Slab',serif; font-size:1.125rem; color:var(--accent); margin-bottom:4px; }
+.rolegroup .dates{ font-family:'IBM Plex Mono',monospace; font-size:0.75rem; color:var(--ink-muted); }
+.rolegroup .title{ font-size:0.8125rem; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; margin-bottom:10px; }
 .rolegroup ul{ list-style:none; }
-.rolegroup li{ font-size:14.5px; padding-left:18px; position:relative; margin-bottom:8px; }
+.rolegroup li{ font-size:0.9062rem; padding-left:18px; position:relative; margin-bottom:8px; }
 .rolegroup li::before{ content:"—"; position:absolute; left:0; color:var(--accent); }
 .skillchips{ display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 40px; }
-.chip{ font-family:'IBM Plex Mono',monospace; font-size:12px; padding:6px 12px; border:1px solid var(--line); border-radius:20px; color:var(--ink-muted); }
-.edu{ font-size:13px; color:var(--ink-muted); display:flex; flex-wrap:wrap; gap:22px; }
-.more a{ font-family:'IBM Plex Mono', monospace; font-size:13px; color:var(--accent); text-decoration:none; }
+.chip{ font-family:'IBM Plex Mono',monospace; font-size:0.75rem; padding:6px 12px; border:1px solid var(--line); border-radius:20px; color:var(--ink-muted); }
+.edu{ font-size:0.8125rem; color:var(--ink-muted); display:flex; flex-wrap:wrap; gap:22px; }
+.more a{ font-family:'IBM Plex Mono', monospace; font-size:0.8125rem; color:var(--accent); text-decoration:none; }
 @media (max-width:900px){ .l1{ padding:36px 24px; } .rolegroup .rowhead{ flex-direction:column; gap:2px; } }

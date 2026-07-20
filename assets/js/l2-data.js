@@ -59,10 +59,12 @@
       why: 'Shifted an at-risk program to a 6-week cadence delivering 95% of planned content, extended the engagement into a $3M contract, and stabilized the SIT 3 window by driving completion of 36 delayed endpoints.' }
   ];
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function render(order) {
     const list = document.getElementById('projList');
     if (!list) return;
-    projects.forEach((p, i) => {
+    list.innerHTML = '';
+    const ordered = order === 'oldest' ? projects.slice() : projects.slice().reverse();
+    ordered.forEach((p, i) => {
       const el = document.createElement('details');
       el.className = 'proj';
       if (i === 0) el.open = true;
@@ -79,5 +81,23 @@
         </div>`;
       list.appendChild(el);
     });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    render('recent');
+    const btnRecent = document.getElementById('sortRecent');
+    const btnOldest = document.getElementById('sortOldest');
+    if (btnRecent && btnOldest) {
+      btnRecent.addEventListener('click', () => {
+        render('recent');
+        btnRecent.setAttribute('aria-pressed', 'true');
+        btnOldest.setAttribute('aria-pressed', 'false');
+      });
+      btnOldest.addEventListener('click', () => {
+        render('oldest');
+        btnOldest.setAttribute('aria-pressed', 'true');
+        btnRecent.setAttribute('aria-pressed', 'false');
+      });
+    }
   });
 })();

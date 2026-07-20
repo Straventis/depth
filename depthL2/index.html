@@ -64,8 +64,12 @@
   <div class="screen-chrome"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
   <div class="l2">
     <div class="eyebrow">L2 — Hiring manager view</div>
-    <h1 style="font-size:32px; margin:10px 0 10px;">Eleven projects, in context.</h1>
+    <h1 style="font-size:2rem; margin:10px 0 10px;">Eleven projects, in context.</h1>
     <p class="lede">What each one was, the role, what shipped, and why it mattered.</p>
+    <div class="segrow" role="group" aria-label="Sort order" style="max-width:260px; margin-bottom:22px;">
+      <button class="seg" id="sortRecent" aria-pressed="true">Most recent first</button>
+      <button class="seg" id="sortOldest" aria-pressed="false">Oldest first</button>
+    </div>
     <div class="projgrid" id="projList"></div>
   </div>
 </div></div>

@@ -4,11 +4,11 @@ nav{
   border-bottom:1px solid var(--line); position:sticky; top:0;
   background:color-mix(in srgb, var(--bg0) 90%, transparent); backdrop-filter:blur(6px); z-index:20;
 }
-.wordmark{ font-family:'Zilla Slab', serif; font-size:20px; font-weight:700; letter-spacing:-0.02em; text-decoration:none; }
+.wordmark{ font-family:'Zilla Slab', serif; font-size:1.25rem; font-weight:700; letter-spacing:-0.02em; text-decoration:none; }
 .wordmark span{ color:var(--accent); }
 .navlinks{ display:flex; gap:8px; align-items:center; }
 .navlinks a.tab{
-  font-family:'IBM Plex Mono', monospace; font-size:13px; letter-spacing:0.03em; color:var(--ink-muted);
+  font-family:'IBM Plex Mono', monospace; font-size:0.8125rem; letter-spacing:0.03em; color:var(--ink-muted);
   text-decoration:none; padding:9px 14px; border-radius:6px; border:1px solid transparent;
 }
 .navlinks a.tab[aria-current="true"]{ background:var(--bg1); color:var(--accent); border-color:var(--line); }
@@ -42,13 +42,13 @@ input:checked + .slider::before{ transform:translateX(16px); background:var(--bg
 /* ---------- shared "screen" wrapper used by L0 / L1 / L2 ---------- */
 .divider{ display:flex; align-items:center; gap:18px; padding:0 64px; max-width:1280px; margin:60px auto 0; }
 .divider .line{ flex:1; height:1px; background:var(--line); }
-.divider .label{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-muted); letter-spacing:0.1em; text-transform:uppercase; }
+.divider .label{ font-family:'IBM Plex Mono', monospace; font-size:0.6875rem; color:var(--ink-muted); letter-spacing:0.1em; text-transform:uppercase; }
 .screenwrap{ padding:24px 64px 100px; max-width:1280px; margin:0 auto; }
 .screen{ background:var(--bg1); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
 .screen-chrome{ display:flex; gap:6px; padding:14px 18px; border-bottom:1px solid var(--line); }
 .dot{ width:9px; height:9px; border-radius:50%; background:var(--line); }
 
-footer{ text-align:center; padding:40px; color:var(--ink-muted); font-size:12px; font-family:'IBM Plex Mono',monospace; }
+footer{ text-align:center; padding:40px; color:var(--ink-muted); font-size:0.75rem; font-family:'IBM Plex Mono',monospace; }
 
 @media (max-width:900px){
   nav{ padding:18px 24px; }
