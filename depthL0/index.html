@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="teal" data-mode="dark" data-size="md" data-layout="normal" data-cb="off">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Depth — Executive view</title>
+<meta name="description" content="Outcomes, bets, and the calls that paid off — the executive view of Santhosh Thiruchendru's career.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/reset.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/l0.css">
+</head>
+<body>
+
+<nav>
+  <a class="wordmark" href="/">Depth<span>.</span></a>
+  <div class="navlinks">
+    <a class="tab" href="/">Home</a>
+    <a class="tab" href="/depthL0/">L0</a>
+    <a class="tab" href="/depthL1/">L1</a>
+    <a class="tab" href="/depthL2/">L2</a>
+    <button class="gearbtn" id="gearbtn" aria-label="Open display settings" aria-expanded="false">⚙</button>
+  </div>
+</nav>
+
+<div class="settings" id="settingsPanel" role="dialog" aria-label="Display settings">
+  <h4>Color theme</h4>
+  <div class="swatchrow" role="group" aria-label="Color theme">
+    <button class="swatch sw-teal" data-theme="teal" aria-label="Teal theme"></button>
+    <button class="swatch sw-slate" data-theme="slate" aria-label="Slate theme"></button>
+    <button class="swatch sw-amber" data-theme="amber" aria-label="Amber theme"></button>
+    <button class="swatch sw-forest" data-theme="forest" aria-label="Forest theme"></button>
+    <button class="swatch sw-indigo" data-theme="indigo" aria-label="Indigo theme"></button>
+  </div>
+  <h4>Colorblind-safe mode</h4>
+  <div class="togglerow"><label for="cbToggle">Blue / orange palette</label>
+    <label class="switch"><input type="checkbox" id="cbToggle"><span class="slider"></span></label></div>
+  <h4>Text size</h4>
+  <div class="segrow" role="group" aria-label="Text size">
+    <button class="seg" data-size="sm">S</button><button class="seg" data-size="md">M</button>
+    <button class="seg" data-size="lg">L</button><button class="seg" data-size="xl">XL</button>
+  </div>
+  <h4>Layout width</h4>
+  <div class="segrow" role="group" aria-label="Layout width">
+    <button class="seg" data-layout="narrow">Narrow</button>
+    <button class="seg" data-layout="normal">Normal</button>
+    <button class="seg" data-layout="wide">Wide</button>
+  </div>
+  <h4>Appearance</h4>
+  <div class="segrow" role="group" aria-label="Appearance mode">
+    <button class="seg" data-appear="auto">Auto</button>
+    <button class="seg" data-appear="light">Light</button>
+    <button class="seg" data-appear="dark">Dark</button>
+  </div>
+  <div class="modeStatus" id="modeStatus">Auto — checking local sunrise/sunset…</div>
+</div>
+
+<main>
+<div class="divider"><div class="line"></div><div class="label">Screen — /depthL0</div><div class="line"></div></div>
+<div class="screenwrap"><div class="screen">
+  <div class="screen-chrome"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+  <div class="l0inner">
+    <div class="eyebrow">L0 — Executive</div>
+    <h1>Twenty years of betting right on hard calls.</h1>
+    <p class="lede">A technical leader's record shows up less in the roadmap and more in the calls made when the roadmap was still blank — what to kill, what to fund, and what to promise a customer before the engineering was proven out.</p>
+    <div class="calls">
+      <div class="call"><div class="num">2020 · Harman</div><h3>Called an $8,000 lidar sensor commercially dead — and redirected the roadmap before the market did.</h3><p>Recommended a camera-first computer vision pivot with a staged DMS/OMS rollout, taken directly to the C-suite.</p></div>
+      <div class="call"><div class="num">2022–2025 · Xperi</div><h3>Turned a leaking royalty process into $1M a year recovered.</h3><p>Rebuilt certification and entitlement tracking on Salesforce end to end, cutting a 45-minute manual intake to real-time routing.</p></div>
+      <div class="call"><div class="num">2022–2025 · Xperi</div><h3>Took on-time delivery from under 40% to 95% — across four engineering teams, no added headcount.</h3><p>RAID governance and a Release Train model replaced ad hoc status chasing with a predictable operating rhythm.</p></div>
+      <div class="call"><div class="num">2016–2020 · Harman / Ford</div><h3>Ran a $36M global program to zero program-caused delays.</h3><p>Three international factories, two regions, one launch date — and $224M+ in resulting lifetime sales.</p></div>
+      <div class="call"><div class="num">2025 · Straventis</div><h3>Turned a failing engagement into a $3M contract.</h3><p>Fixed the delivery model first — four-vendor governance, six-week cadence — before anyone asked for more scope.</p></div>
+      <div class="call"><div class="num">2005–2016 · Caterpillar</div><h3>Started in C and Simulink, ended running embedded programs.</h3><p>Eleven years on safety-relevant mining truck engine systems — the origin of the traceability instinct that shows up in every program since.</p></div>
+    </div>
+  </div>
+</div></div>
+</main>
+
+<footer><p>DEPTH — SANTHOSH THIRUCHENDRU</p></footer>
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/sun.js"></script>
+<script src="/assets/js/nav.js"></script>
+</body>
+</html>

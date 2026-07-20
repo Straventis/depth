@@ -1,0 +1,9 @@
+.l0inner{ padding:56px 72px; }
+.l0inner h1{ font-size:2.4rem; line-height:1.14; margin:14px 0 20px; max-width:18ch; }
+.l0inner .lede{ font-size:1.02rem; color:var(--ink-muted); max-width:64ch; margin-bottom:44px; }
+.calls{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.call{ background:var(--bg2); border:1px solid var(--line); border-radius:8px; padding:22px; }
+.call .num{ font-family:'IBM Plex Mono',monospace; color:var(--accent); font-size:0.72rem; }
+.call h3{ font-size:1.08rem; margin:9px 0 8px; line-height:1.32; }
+.call p{ font-size:0.9rem; color:var(--ink-muted); }
+@media (max-width:900px){ .l0inner{ padding:36px 24px; } .calls{ grid-template-columns:1fr; } }
