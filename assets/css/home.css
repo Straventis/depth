@@ -39,5 +39,5 @@
 }
 
 /* photo is compact in the hero — it sits above a large headline, shouldn't compete */
-.hero .page-photo{ width:64px; height:64px; }
+.hero .page-photo{ width:88px; height:88px; }
 .hero .page-header{ align-items:center; }
