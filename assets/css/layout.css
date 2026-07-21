@@ -60,7 +60,7 @@ footer{ text-align:center; padding:40px; color:var(--ink-muted); font-size:0.75r
 .page-header{ margin-bottom:6px; }
 .page-header-text{ min-width:0; }
 .page-bio-inline{ display:flex; align-items:baseline; flex-wrap:wrap; gap:10px; margin:10px 0 18px; }
-.bio-name{ font-family:'Zilla Slab',serif; font-weight:600; font-size:0.95rem; color:var(--ink); }
+.bio-name{ font-family:'Zilla Slab',serif; font-weight:600; font-size:1.25rem; color:var(--ink); }
 .bio-link{ font-family:'IBM Plex Mono',monospace; font-size:0.75rem; color:var(--accent); text-decoration:none; }
 .bio-link:hover{ text-decoration:underline; }
 .bio-edu{ display:flex; flex-wrap:wrap; gap:4px 14px; font-size:0.75rem; color:var(--ink-muted); width:100%; margin-top:2px; }

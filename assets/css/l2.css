@@ -4,7 +4,11 @@
 .proj{ background:var(--bg2); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
 .proj summary{ list-style:none; cursor:pointer; padding:20px 24px; display:flex; justify-content:space-between; align-items:center; gap:16px; }
 .proj summary::-webkit-details-marker{ display:none; }
-.proj summary .path{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--accent); display:block; margin-bottom:4px; }
+.proj summary .path{ display:block; margin-bottom:6px; }
+.proj summary .path-company{ font-family:'IBM Plex Mono', monospace; font-size:1rem; font-weight:700; color:var(--accent); }
+.proj summary .path-company a{ color:inherit; text-decoration:underline; text-decoration-color:color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset:3px; }
+.proj summary .path-company a:hover{ text-decoration-color:var(--accent); }
+.proj summary .path-dates{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--ink-muted); margin-left:8px; }
 .proj summary h3{ font-size:1.125rem; }
 .proj summary .chevron{ font-size:0.9375rem; color:var(--ink-muted); transition:transform .2s ease; }
 .proj[open] summary .chevron{ transform:rotate(180deg); }

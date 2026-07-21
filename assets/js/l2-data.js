@@ -68,9 +68,13 @@
       const el = document.createElement('details');
       el.className = 'proj';
       if (i === 0) el.open = true;
+      const [company, dates] = p.org.split(' · ');
+      const companyHtml = company === 'Straventis Advisory Group'
+        ? `<a href="https://straventis.com" target="_blank" rel="noopener">${company}</a>`
+        : company;
       el.innerHTML = `
         <summary>
-          <div><span class="path">${p.org}</span><h3>${p.title}</h3></div>
+          <div><span class="path"><span class="path-company">${companyHtml}</span><span class="path-dates">${dates || ''}</span></span><h3>${p.title}</h3></div>
           <span class="chevron">▾</span>
         </summary>
         <div class="body">
