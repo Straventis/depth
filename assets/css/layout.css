@@ -60,11 +60,13 @@ footer{ text-align:center; padding:40px; color:var(--ink-muted); font-size:0.75r
 .bio-name{ font-family:'Zilla Slab',serif; font-weight:600; font-size:1rem; color:var(--ink); }
 .bio-link{ font-family:'IBM Plex Mono',monospace; font-size:0.75rem; color:var(--accent); text-decoration:none; }
 .bio-link:hover{ text-decoration:underline; }
-.bio-edu{ font-size:0.68rem; line-height:1.55; color:var(--ink-muted); max-width:210px; }
+.bio-edu{ font-size:0.68rem; line-height:1.5; color:var(--ink-muted); max-width:210px; }
+.bio-edu-item{ margin-bottom:4px; }
+.bio-edu-item:last-child{ margin-bottom:0; }
 
 /* ---------- certification badges, shown above the footer on every page ---------- */
 .badges{ display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:28px; padding:36px 24px; border-top:1px solid var(--line); }
-.badges img{ height:64px; width:auto; opacity:0.88; transition:opacity .2s ease; }
+.badges img{ height:80px; width:auto; opacity:0.88; transition:opacity .2s ease; }
 .badges img:hover{ opacity:1; }
 .badges:empty{ display:none; }
 
@@ -76,5 +78,5 @@ footer{ text-align:center; padding:40px; color:var(--ink-muted); font-size:0.75r
   .page-photo-wrap{ width:auto; }
   .page-photo{ width:140px; height:140px; }
   .badges{ gap:20px; padding:28px 20px; }
-  .badges img{ height:52px; }
+  .badges img{ height:64px; }
 }
