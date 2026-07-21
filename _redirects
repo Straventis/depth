@@ -1,0 +1,9 @@
+# Safety net: Cloudflare Pages is currently resolving these paths correctly
+# only in uppercase (depthL0/L1/L2), the opposite of GitHub Pages' behavior.
+# Redirect lowercase variants (easy to type/bookmark) to the working uppercase ones.
+/depthl0/*  /depthL0/:splat  301
+/depthl0    /depthL0/         301
+/depthl1/*  /depthL1/:splat  301
+/depthl1    /depthL1/         301
+/depthl2/*  /depthL2/:splat  301
+/depthl2    /depthL2/         301

@@ -1,15 +1,15 @@
 # Depth — Santhosh Thiruchendru's portfolio
 
-Phase 1 v1: `/`, `/depthl0/`, `/depthl1/`, `/depthl2/`. Static HTML/CSS/JS, no build step, no framework, no backend.
+Phase 1 v1: `/`, `/depthL0/`, `/depthL1/`, `/depthL2/`. Static HTML/CSS/JS, no build step, no framework, no backend.
 
 ## What's here
 
 ```
 .
 ├── index.html          Home — hero, core-sample nav, track cards
-├── depthl0/index.html  Executive view
-├── depthl1/index.html  Recruiter view (resume, web-native)
-├── depthl2/index.html  Hiring manager view (6 project write-ups)
+├── depthL0/index.html  Executive view
+├── depthL1/index.html  Recruiter view (resume, web-native)
+├── depthL2/index.html  Hiring manager view (6 project write-ups)
 └── assets/
     ├── css/
     │   ├── tokens.css   Theme system: 5 color themes × light/dark, colorblind override, 4 text sizes, 3 layout widths
@@ -21,14 +21,14 @@ Phase 1 v1: `/`, `/depthl0/`, `/depthl1/`, `/depthl2/`. Static HTML/CSS/JS, no b
         ├── theme.js     Settings panel logic, persists to localStorage
         ├── sun.js       Sunrise/sunset auto light-dark, manual override
         ├── nav.js       Highlights the active nav link
-        └── l2-data.js   The 6 project entries for /depthl2/
+        └── l2-data.js   The 6 project entries for /depthL2/
 ```
 
 Every page loads the same `tokens.css` + `reset.css` + `layout.css`, so the theme system is consistent everywhere. Content pages additionally load their own stylesheet and (for L2) `l2-data.js`.
 
 ## Content source
 
-All copy on `/depthl0/`, `/depthl1/`, and `/depthl2/` traces back to Santhosh's base resume — no invented claims, bullets, or metrics. `/depthl2` currently covers 6 distinct projects (Straventis/DFD, OnePipeline, Salesforce Certification, Harman ADAS/DMS, Ford Infotainment, Caterpillar); this is an accurate count of distinct projects in the resume, not a placeholder for a 7th.
+All copy on `/depthL0/`, `/depthL1/`, and `/depthL2/` traces back to Santhosh's base resume — no invented claims, bullets, or metrics. `/depthL2` currently covers 6 distinct projects (Straventis/DFD, OnePipeline, Salesforce Certification, Harman ADAS/DMS, Ford Infotainment, Caterpillar); this is an accurate count of distinct projects in the resume, not a placeholder for a 7th.
 
 ## Preview locally
 
@@ -44,7 +44,7 @@ Then open `http://localhost:8000`.
 
 ## Deploy
 
-Path-based routing (`/depthl0/`, etc.) works out of the box on any static host that serves `folder/index.html` at `/folder/`:
+Path-based routing (`/depthL0/`, etc.) works out of the box on any static host that serves `folder/index.html` at `/folder/`:
 
 - **Netlify** — drag the repo folder onto the Netlify dashboard, or connect the GitHub repo directly.
 - **Vercel** — `vercel` from the repo root, or connect the GitHub repo.

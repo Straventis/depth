@@ -1,5 +1,5 @@
 // Depth — L2 project data. Source: base resume only, no invented facts.
-// Rendered into #projList on the /depthl2/ page.
+// Rendered into #projList on the /depthL2/ page.
 (function () {
   const projects = [
     { org: 'Eagle RTEC LLC · 2005–2007', title: 'Honda-Yazaki Instrument Cluster Integration',
