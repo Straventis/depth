@@ -19,6 +19,6 @@
           row.appendChild(img);
         });
       })
-      .catch(() => { /* no manifest yet, or none reachable — badges bar just stays empty/hidden */ });
+      .catch((err) => { console.error('Depth: badges failed to load —', err); });
   });
 })();
