@@ -16,13 +16,26 @@
 <body>
 
 <nav>
-  <a class="navbrand" href="/"><span class="navphoto"><img src="/assets/img/headshot.jpg" alt=""></span><span class="wordmark">Depth<span>.</span></span></a>
-  <div class="navlinks">
+  <div class="nav-left">
+    <a class="navbrand" href="/"><span class="navphoto"><img src="/assets/img/headshot.jpg" alt=""></span><span class="wordmark">Depth<span>.</span></span></a>
+    <div class="nav-identity">
+      <span class="nav-name">Santhosh Thiruchendru</span>
+      <div class="nav-edu">
+        <span>M.S. / M.B.A. Strategic Management &amp; Entrepreneurship, Indiana University</span>
+        <span>M.S. Electrical Engineering, Bradley University</span>
+        <span>B.E. Electronics &amp; Communication Engineering, Bharathidasan University</span>
+      </div>
+    </div>
+  </div>
+  <div class="nav-right">
+    <a class="nav-linkedin" href="https://linkedin.com/in/s-thiru" target="_blank" rel="noopener"><span class="li-icon">in</span><span>LinkedIn &#8599;</span></a>
+    <div class="navlinks">
     <a class="tab" href="/">Home</a>
     <a class="tab" href="/depthL0/">L0</a>
     <a class="tab" href="/depthL1/">L1</a>
     <a class="tab" href="/depthL2/">L2</a>
     <button class="gearbtn" id="gearbtn" aria-label="Open display settings" aria-expanded="false">⚙</button>
+    </div>
   </div>
 </nav>
 
@@ -69,16 +82,8 @@
         <div class="eyebrow">L0 — Executive</div>
         <h1>Twenty years, five eras, one throughline.</h1>
       </div>
-        <div class="page-bio-inline">
-          <span class="bio-name">Santhosh Thiruchendru</span>
-          <a class="bio-link" href="https://linkedin.com/in/s-thiru" target="_blank" rel="noopener">LinkedIn &#8599;</a>
-        </div>
-        <div class="bio-edu">
-          <span class="bio-edu-item">M.S. Entrepreneurship, Indiana University</span>
-          <span class="bio-edu-item">M.B.A. Strategic Management, Indiana University</span>
-          <span class="bio-edu-item">M.S. Electrical Engineering, Bradley University</span>
-          <span class="bio-edu-item">B.E. Electronics &amp; Communication Engineering, Bharathidasan University</span>
-        </div>
+
+
     </div>
     <p class="lede">Five eras, each with a narrative, three headline metrics, and the signature project that defined it — the shape of a 20-year arc without the day-to-day detail.</p>
     <div class="eras">
@@ -148,11 +153,12 @@
 
 <div class="badges" id="badgeRow"></div>
 
-<footer><p>DEPTH — SANTHOSH THIRUCHENDRU</p></footer>
+<footer><p>DEPTH — SANTHOSH THIRUCHENDRU</p><p id="lastUpdated" class="last-updated"></p></footer>
 
 <script src="/assets/js/theme.js"></script>
 <script src="/assets/js/sun.js"></script>
 <script src="/assets/js/nav.js"></script>
+<script src="/assets/js/last-updated.js"></script>
 <script src="/assets/js/badges.js"></script>
 </body>
 </html>
