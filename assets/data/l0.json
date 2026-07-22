@@ -1,0 +1,67 @@
+[
+  {
+    "company": "Straventis Advisory Group",
+    "link": "https://straventis.com",
+    "years": "2025–Present",
+    "role": "Founder &amp; Principal Consultant",
+    "narrative": "Founded Straventis Advisory Group as an independent execution and program governance practice, taking on a 4-vendor healthcare delivery engagement for Ascension Health alongside building ContentIQ, a self-directed content analytics product shipped end-to-end from parser to public beta.",
+    "metrics": [
+      "At-risk program restored to 95% on-time delivery in a 6-week cadence, opening the door for a $3M contract extension",
+      "<a href='https://auri-x.straventis.com' target='_blank' rel='noopener'>Auri-x</a> - A personal intelligence layer kicked -off with beta testing scheduled for 4th Quarter 2026; AI-driven personal knowledge management and content recommendation engine",
+      "<a href='https://contentiq.straventis.com' target='_blank' rel='noopener'>ContentIQ</a> shipped as a live public beta product; Intelligent content recommendation and analytics engine under development for enterprise SaaS launch for 3rd Quarter 2026."
+    ],
+    "signature": "Particleblack/Ascension DFD &amp; <a href='https://contentiq.straventis.com' target='_blank' rel='noopener'>ContentIQ</a>"
+  },
+  {
+    "company": "<a href='https://www.xperi.com' target='_blank' rel='noopener'>Xperi Corporation</a>",
+    "link": null,
+    "years": "2022–2025",
+    "role": "Senior Technical Program/Product Manager",
+    "narrative": "Owned two enterprise platforms at Xperi: OnePipeline, an ML-driven metadata and recommendation engine processing 240M records/month, and a Salesforce Quote-to-Cash platform governing product certification and royalty revenue. Also led the AWS Control Tower cloud governance implementation.",
+    "metrics": [
+      "$7.9M modeled net benefit / $11M legacy cost avoidance (OnePipeline)",
+      "~$1M/year revenue leakage recovered (Salesforce Q2C)",
+      "~90 AWS accounts brought under centralized governance"
+    ],
+    "signature": "OnePipeline &amp; Salesforce Q2C / AWS Control Tower"
+  },
+  {
+    "company": "<a href='https://www.harman.com' target='_blank' rel='noopener'>Harman International Industries</a> - ADAS / Edge-AI",
+    "link": null,
+    "years": "2019–2022",
+    "role": "Platform Product Manager",
+    "narrative": "Pivoted from infotainment into Harman's 0-to-1 entry into the ADAS market, moving from lidar proof-of-concept work into a camera-first Edge-AI perception platform as Platform Product Manager. Made the technical and financial case that redirected the roadmap away from an unproven $1,000+ lidar bet.",
+    "metrics": [
+      "$3.2M internal venture funding secured",
+      "$700–900/vehicle BOM savings via camera-only fallback variant",
+      "2–2.5x revenue uplift via multi-line platform reuse at L2+ SOP"
+    ],
+    "signature": "AI Perception on Edge Compute (Project Argus)"
+  },
+  {
+    "company": "<a href='https://www.harman.com' target='_blank' rel='noopener'>Harman International Industries</a> - Ford Infotainment",
+    "link": null,
+    "years": "2016–2019",
+    "role": "Customer Technical Program Manager",
+    "narrative": "Took ownership of Ford's global infotainment program as Customer Technical Program Manager, absorbing a major scope change when Ford discontinued the US Focus and the program shifted to EU/APAC manufacturing. Ran delivery across 3 international factories from design through mass production.",
+    "metrics": [
+      "$36M program, 100% on-time launch, zero program-caused delays",
+      "$224M+ in lifetime sales",
+      "22% BOM cost cut via VA/VE without warranty risk"
+    ],
+    "signature": "<a href='https://www.harman.com' target='_blank' rel='noopener'>Harman International Industries</a> - Ford Infotainment Program"
+  },
+  {
+    "company": "<a href='https://www.caterpillar.com' target='_blank' rel='noopener'>Caterpillar Inc.</a>",
+    "link": null,
+    "years": "2005–2016",
+    "role": "Application Engineer → Senior Engineer → Engineering Program Manager",
+    "narrative": "Started as a systems integration and embedded controls engineer on Honda-Yazaki instrument cluster work, then spent over a decade building HIL validation, telemetry, and simulation infrastructure for Caterpillar's mining truck engine controls. Grew from individual contributor into Engineering Program Manager, leading a 5-person validation team and running Agile/Scrum delivery across distributed engineering sites.",
+    "metrics": [
+      "~40% cut in manual test effort via HIL automation",
+      "40% faster root-cause analysis via telemetry",
+      "85% improvement in defect detection through Agile/Six Sigma coaching"
+    ],
+    "signature": "<a href='https://www.cat.com/en_US/news/machine-press-releases/new-generation-cat-785-mining-truck-advances-efficiency-and-productivity-for-lower-costs.html' target='_blank' rel='noopener'>CAT 785C DGB — Large Mining Truck Program</a>, <a href='https://parts.cat.com/en/catcorp/product/443-5682' target='_blank' rel='noopener'>Cat In-Cylinder Pressure Sensor (443-5682, 0–25,000 kPa)</a>development, integration and productionization, <a href='https://www.zeppelin-cat.no/application/files/4415/3786/6859/CM20170719-21694-08838.pdf' target='_blank' rel='noopener'>G34CM (G12CM24, G16CM24, G20CM24)Engine Platform Validation for Power-Genration</a>, and for <a href='https://www.cat.com/en_US/news/engine-press-releases/caterpillar-shipsfirstcat3500seriesmarinegasenginesfromlafa.html' target='_blank' rel='noopener'>Shipping Market</a>"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "eyebrow": "Principal Product / Program Manager",
+  "name": "Santhosh Thiruchendru",
+  "role": "Raleigh, NC · 20 years across automotive embedded systems, ADAS, and enterprise data platforms",
+  "summary": "Product and program leader with 20 years spanning embedded automotive systems, ADAS platform strategy, and enterprise data and AI platforms — starting in C and Simulink at Caterpillar, leading Harman's pivot off an unproven lidar bet into a funded Edge-AI platform, then owning $7.9M and $1M+ revenue-impact platforms at Xperi. Strongest at taking ambiguous 0-to-1 mandates to production: ADAS architecture, ML metadata pipelines, and Salesforce revenue systems all started as a blank roadmap. Currently running Straventis Advisory Group, where a governance rebuild turned an at-risk program into a $3M contract.",
+  "roles": [
+    { "company": "Straventis Advisory Group", "link": "https://straventis.com", "dates": "2025 – Present", "title": "Founder &amp; Principal Consultant — Particleblack / Ascension DFD",
+      "bullets": [
+        "Founded Straventis Advisory Group and took on program leadership for a 4-vendor Digital Front Door initiative serving 140K associates.",
+        "Restored an at-risk program to a 6-week delivery cadence, hitting 95% on-time content delivery.",
+        "Built a 4-layer governance operating model that extended the engagement into a $3M contract."
+      ]
+    },
+    { "company": "Straventis Advisory Group", "link": "https://straventis.com", "dates": "2025 – Present", "title": "Founder &amp; Principal Consultant — ContentIQ",
+      "bullets": [
+        "Built a content analytics pipeline from scratch, with defensive parsing that automatically handles multiple export formats after the source platform changed without warning.",
+        "Shipped a working dashboard, not a mockup: KPI cards, engagement by category, account-wide timeline, and per-post growth pages with date-range filtering.",
+        "Took it from private tool to public product: landing page, About/roadmap, working signup flow, and a deliberate real-vs-relative metrics tradeoff for public data."
+      ]
+    },
+    { "company": "Xperi (TiVo) Corporation", "link": null, "dates": "2024", "title": "Senior Technical Product Manager — Xperi LumApps DFD",
+      "bullets": [
+        "Deployed LumApps as Xperi's Digital Front Door, replacing a fragmented legacy SharePoint intranet with one centralized entry point for all employees.",
+        "Integrated existing systems into a single dashboard rather than replacing them, preserving their ROI while unifying the employee experience.",
+        "Delivered the full build, integration, and handover in 6 months, then transitioned ownership and governance to the Marketing team."
+      ]
+    },
+    { "company": "Xperi (TiVo) Corporation", "link": null, "dates": "2024 – 2025", "title": "Senior Technical Product Manager — Salesforce Q2C &amp; AWS Control Tower",
+      "bullets": [
+        "Owned the Salesforce Global Certification Hub, recovering ~$1M/year in revenue leakage and hitting 92% first-time-right SDK delivery.",
+        "Led AWS Control Tower implementation, governing ~90 AWS accounts with automated, Terraform-based provisioning.",
+        "Cut Q2C workflow errors 70% and processing time 50% through CPQ/Billing automation and an anonymized lab routing engine."
+      ]
+    },
+    { "company": "Xperi (TiVo) Corporation", "link": null, "dates": "2022 – 2025", "title": "Senior Technical Program/Product Manager — Enterprise Data Platform (OnePipeline)",
+      "bullets": [
+        "Owned OnePipeline, replacing a monolithic metadata pipeline with an ML-driven platform processing 240M records/month for TiVo's search, recommendations, and ad products.",
+        "Delivered ~$7.9M modeled net benefit and ~$11M legacy cost avoidance, cutting processing time from 25+ hours to ~30 minutes.",
+        "Rescued a stalled VOD migration and decoupled the Ad Platform launch, protecting a projected $500K in at-risk revenue."
+      ]
+    },
+    { "company": "Harman International Industries", "link": null, "dates": "2021 – 2022", "title": "Platform Product Manager — AI Perception on Edge Compute",
+      "bullets": [
+        "Pivoted Harman's ADAS roadmap away from a $1,000+ lidar investment to a camera-first Edge-AI platform, securing $3.2M in internal funding.",
+        "Proved a camera-only fallback variant, securing $700–900/vehicle BOM savings and hedging lidar supply chain risk.",
+        "Launched the first committed L2+ production line, driving 2–2.5x revenue uplift through multi-line vehicle reuse."
+      ]
+    },
+    { "company": "Harman International Industries", "link": null, "dates": "2019 – 2020", "title": "Customer Technical Program Manager → Platform Product Manager — Project Argus",
+      "bullets": [
+        "Closed out the Ford infotainment program cleanly while launching early lidar/computer vision proof-of-concept work for Harman's new ADAS effort.",
+        "Defined a scalable L2+ to L4 autonomous driving architecture on TI Jacinto processors, targeting ≥70% software reuse across autonomy tiers.",
+        "Architected object-level sensor fusion and HD map localization to unlock highway-pilot-class features."
+      ]
+    },
+    { "company": "Harman International Industries", "link": null, "dates": "2016 – 2019", "title": "Customer Technical Program Manager — Ford Global Infotainment Program",
+      "bullets": [
+        "Led Ford's $36M global infotainment program across 3 international factories, delivering 100% on-time launch and $224M+ in lifetime sales.",
+        "Managed a major mid-program scope realignment (US/Mexico to EU/APAC) and a USB-A to USB-C spec change without missing launch commitments.",
+        "Cut BOM cost 22% through VA/VE while holding compliance and OEM warranty commitments."
+      ]
+    },
+    { "company": "Caterpillar Inc.", "link": null, "dates": "2011 – 2016", "title": "Senior Engineer → Engineering Program Manager — CAT 785C DGB — Large Mining Truck Program",
+      "bullets": [
+        "Built automated HIL validation frameworks for embedded engine controls, cutting manual testing effort ~40%.",
+        "Led a 5-person embedded validation team and served as Scrum Master, bringing Agile cadence to engine control software delivery.",
+        "Drove cross-functional integration and root-cause investigation across systems, controls, and calibration engineering."
+      ]
+    },
+    { "company": "Caterpillar Inc.", "link": null, "dates": "2008 – 2010", "title": "Senior Engineer — Engine Platform Controls System Optimization",
+      "bullets": [
+        "Shifted into Technical Program Management, synchronizing hardware, software, and test teams on a major engine controls launch.",
+        "Built telemetry and data logging infrastructure for field-deployed fleets, cutting root-cause analysis time ~40%.",
+        "Built automated simulation environments to validate control algorithms ahead of hardware availability."
+      ]
+    },
+    { "company": "Eagle RTEC LLC", "link": null, "dates": "2005 – 2007", "title": "Application Engineer — Honda-Yazaki Instrument Cluster Integration",
+      "bullets": [
+        "Built systems integration and HIL testing foundation for automotive instrument cluster electronics, cutting integration failures through early validation.",
+        "Developed embedded firmware and control logic, establishing deterministic execution patterns for safety-critical functions.",
+        "Migrated legacy control software onto a standardized platform, cutting development cycle times for later product lines."
+      ]
+    }
+  ],
+  "skills": [
+    "AI/ML Platform Ownership", "0-to-1 Product Launch", "ADAS &amp; ISO 26262", "Salesforce CPQ &amp; Revenue Cloud",
+    "AWS Control Tower &amp; Terraform", "HIL Validation &amp; Embedded Systems", "Data Pipeline Architecture", "Multi-Vendor Program Governance"
+  ],
+  "education": [
+    "M.S. Entrepreneurship — Indiana University, 2026",
+    "M.B.A. Strategic Management — Indiana University, 2024",
+    "M.S. Electrical Engineering — Bradley University, 2005",
+    "PMP — PMI, 2024",
+    "Six Sigma DMAIC/DMEDI Black Belt — Caterpillar era"
+  ]
+}
